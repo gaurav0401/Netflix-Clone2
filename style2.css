@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    background-image: url("cover.jpg");
+    background-size: cover;
+    opacity:1;
+    background-color: black;
+    background-color: transparent;
+
+    
+    
+}
+
+.bar1{
+
+    padding-top: 25px;
+    padding-left: 45px;
+    
+    
+}
+.box1 {
+    background-color: black;
+    margin-top: 6vh;
+    height: 82vh;
+    width: 28vw;
+    margin-left: 35vw;
+    color: white;
+   
+}
+
+#emailid {
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 42px;
+    width: 250px;
+    margin-bottom: 14px;
+    padding-left: 20px;
+    background-color: rgb(59, 59, 59);
+    color: whitesmoke;
+}
+
+#passwd {
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 42px;
+    width: 250px;
+    padding-left: 18px;
+    margin-bottom: 28px;
+    background-color: rgb(59, 59, 59);
+    color: whitesmoke;
+}
+
+#btn1 {
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 42px;
+    width: 272px;
+    color: white;
+    background-color: red;
+    font-size: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    padding-top: 60px;
+    color: rgb(198, 198, 198);
+    padding-right: 58px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.p2 {
+    padding-top: 0px;
+    color: rgb(198, 198, 198);
+    margin-left: 52px;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer{
+background-color: black;
+
+padding-left: 200px;
+padding-top: 0px;
+padding-bottom: 80px;
+margin-top: 90px;
+
+}
+
+.box2 {
+
+    padding-left: 70px;
+    margin-top: 100px;
+
+    padding-top:  -12px;
+  
+    display: flex;
+    flex-direction: row;
+
+}
+
+.block {
+    padding-right: 120px;
+    padding-top: 50px;
+   
+    display: flex;
+    flex-direction: column;
+}
+
+
+#lang {
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: gray;
+    height: 48px;
+    width: 110px;
+    margin-left: 70px;
+    margin-top: 20px;
+    
+}
+
+#para1{
+    color: gray;
+     margin-bottom: -120px;
+     padding-left: 68px;
+}
+
+.big{
+    background-color: rgb(17, 17, 17);
+    opacity: 0.85;
+}

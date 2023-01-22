@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Netflix-Explore Page</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="shortcut icon" href="./icon.png" type="images/x-icon" />
+
+
+    <style>
+        .mySlides {
+
+
+
+            border: 0.4vw solid black;
+
+            border-radius: 22px;
+            box-shadow: 1vw 1vh #232323;
+
+            height: 65vh;
+            width: 65vw;
+
+            padding-top: 0vh;
+            margin-left: 22vw;
+            position: relative;
+
+            top: 15vh;
+
+
+        }
+
+        .left {
+
+            background-color: rgb(45, 44, 44);
+            border: 1px solid gray;
+            border-radius: 6px;
+            color: white;
+            height: 16vh;
+            width: 4vw;
+            font-size: 8vh;
+            position: relative;
+            bottom: 30vh;
+            left: 22vw;
+            opacity: 0.4;
+        }
+
+        .right {
+
+            background-color: rgb(45, 44, 44);
+            border: 1px solid gray;
+            border-radius: 6px;
+            color: white;
+            height: 16vh;
+            width: 4vw;
+            font-size: 8vh;
+            position: relative;
+            bottom: 30vh;
+            left: 67.6vw;
+            opacity: 0.4;
+
+        }
+
+        #text{
+
+            font-size:3vh ;
+            color: rgb(200, 200, 200);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding-left: 38vw;
+        }
+
+
+
+
+
+
+         
+.home-image{
+    background-image: url(stranger.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 95%;
+    height: 110vh;
+    border-radius: 20px;
+    position: relative;
+    filter: brightness();
+    margin-left: 35px;
+    
+   
+}
+.home-image-text{
+    color: aliceblue;
+    position: relative;
+    width: 30%;
+    top: 13em;
+    left: 3em;
+    z-index: 1;
+}
+.money{
+    width: 100%;
+    height: auto;
+}
+.play-button{
+    background-color: red;
+    color: black;
+    border-radius: 4px;
+    width: 70px;
+    padding: 5px 20px 0px;
+    font-size: 25px;
+}
+.play-button img{
+    margin-top: 0px;
+    padding-left: 5px;
+    width: 25px;
+    position: absolute;
+}
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="bar1">
+            <img src="netlogo.png" alt="no image" width=" 135px" id="img1">
+
+            <small id="txt1">UNLIMITED TV SHOWS & MOVIES</small>
+            <button class="btn1" onclick="joinpage()">JOIN NOW</button>
+            <button class="btn2" onclick="loginpage()">SIGN IN</button>
+        </nav>
+    </header>
+    
+    <span >
+    
+        <!-- <img class="mySlides" src="lucifer.jpg">
+        <video class="mySlides" src="Official Trailer _ Season 1 _ LUCIFER.mp4" autoplay muted></video>
+
+
+        <img class="mySlides" src="stranger.jpg">
+        <video class="mySlides" src="Stranger Things 4 _ Volume 2 Trailer _ Netflix.mp4" autoplay muted></video>
+        <img class="mySlides" src="you.jpg">
+        <video class="mySlides" src="y2mate.com - YOU  Trailer 2 HD  Netflix_720p.mp4" muted autoplay></video>
+        <img class="mySlides" src="manifest.jpg">
+        <video class="mySlides" src="Manifest_ Season 4 _ Official Trailer _ Netflix.mp4" autoplay muted></video>
+        <button class="left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="right" onclick="plusDivs(+1)">&#10095;</button> -->
+
+    </span>
+    <br>
+    <!-- <big id="text">Most Trending Content on Netflix</big> -->
+
+    <div class="box1">
+        <div class="home-image">
+            <div class="home-image-text">
+                <img class="money" src="#" alt="">
+                <p style="font-family:  Arial, Helvetica, sans-serif;">
+                   When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces and one strange little girl.
+                </p>
+    
+                <a style="text-decoration: none" href="Stranger Things 4 _ Volume 2 Trailer _ Netflix.mp4">
+                <p class="play-button">Play
+                    <img src="play.png" alt="">
+                </p>
+                </a>
+            </div>
+        <h1 style="font-size: 44px ; color: white ; font-family: Helvetica Neue,Helvetica,Arial,sans-serif; margin-top: 100vh;"> <big>Only
+                on Netflix </big></h1>
+        <p class="para1">
+            
+            Netflix is the home of amazing original programming that you can’t find anywhere else. Movies, TV shows,
+            specials and more, all tailored specifically to you.
+        </p>
+    </div>
+
+    <div class="box2">
+        <big id="sub1">Popular on Netflix</big>
+        <br>
+        <br>
+        <span class="container1">
+            <a href="" style="padding-right: 8px ; " id="you"><img src="you.jpg" alt="no image" width="340vw"></a>
+            <a href="" style="padding-right: 8px ;"><img src="mismatched.jpg" alt="no image" width="340vw"></a>
+            <a href="" style="padding-right: 8px ;"><img src="strangerthing.jpg" alt="no image" width="340vw"></a>
+            <a href="" style="padding-right: 8px ;"><img src="money.jpg" alt="no image" width="340vw"></a>
+            <a href="" style="padding-right: 8px ;"><img src="manifest.jpg" alt="no image" width="340vw"></a>
+        </span>
+    </div>
+
+    <div class="box3">
+        <big id="sub2">Crime TV Dramas</big>
+        <br>
+        <br>
+        <span class="container">
+            <a href="" style="padding-right: 8px ; "><img src="lucifer.jpg" alt="no image" width="340vw"></a>
+            <a href="" style="padding-right: 8px ;"><img src="peaky.jpg" alt="no image" width="340vw"></a>
+            <a href="" style="padding-right: 8px ;"><img src="ozark.jpg" alt="no image" width="340vw"></a>
+            <a href="" style="padding-right: 8px ;"><img src="nacros.jpg" alt="no image" width="340vw"></a>
+            <a href="" style="padding-right: 8px ;"><img src="dark.jpg" alt="no image" width="340vw"></a>
+        </span>
+    </div>
+
+
+    <div class="box4">
+        <big id="sub3">New Releases</big>
+        <br>
+        <br>
+        <span class="container3">
+            <a href="" style="padding-right: 8px ; "><img src="takeover.jpg" alt="no image" width="340vw"></a>
+            <a href="" style="padding-right: 8px ;"><img src="inside.jpg" alt="no image" width="340vw"></a>
+            <a href="" style="padding-right: 8px ;"><img src="watcher.jpg" alt="no image" width="340vw"></a>
+            <a href="" style="padding-right: 8px ;"><img src="drgon.jpg" alt="no image" width="340vw"></a>
+            <a href="" style="padding-right: 8px ;"><img src="cobra.jpg" alt="no image" width="340vw"></a>
+        </span>
+    </div>
+
+    <div class="box5">
+        <big id="sub4">International TV Shows</big>
+        <br>
+        <br>
+        <span class="container">
+            <a href="" style="padding-right: 8px ; "><img src="desire.jpg" alt="no image" width="340vw"></a>
+            <a href="" style="padding-right: 8px ;"><img src="toyboy.jpg" alt="no image" width="340vw"></a>
+            <a href="" style="padding-right: 8px ;"><img src="lupin.jpg" alt="no image" width="340vw"></a>
+            <a href="" style="padding-right: 8px ;"><img src="diary.jpg" alt="no image" width="340vw"></a>
+            <a href="" style="padding-right: 8px ;"><img src="allof.jpg" alt="no image" width="340vw"></a>
+        </span>
+    </div>
+
+    <div class="box6">
+        <big id="sub5">Watch In One Weekend</big>
+        <br>
+        <br>
+        <span class="container">
+            <a href="" style="padding-right: 8px ; "><img src="jamtara.jpg" alt="no image" width="340vw"></a>
+            <a href="" style="padding-right: 8px ;"><img src="cursed.jpg" alt="no image" width="340vw"></a>
+            <a href="" style="padding-right: 8px ;"><img src="evil.jpg" alt="no image" width="340vw"></a>
+            <a href="" style="padding-right: 8px ;"><img src="anna.jpg" alt="no image" width="340vw"></a>
+            <a href="" style="padding-right: 8px ;"><img src="dahmer.jpg" alt="no image" width="340vw"></a>
+        </span>
+    </div>
+
+    <div class="box7">
+        <big id="sub6">Exciting Movies</big>
+        <br>
+        <br>
+        <span class="container">
+            <a href="" style="padding-right: 8px ; "><img src="pokemon.jpg" alt="no image" width="340vw"></a>
+            <a href="" style="padding-right: 8px ;"><img src="extraction.jpg" alt="no image" width="340vw"></a>
+            <a href="" style="padding-right: 8px ;"><img src="notice.jpg" alt="no image" width="340vw"></a>
+            <a href="" style="padding-right: 8px ;"><img src="inter.jpg" alt="no image" width="340vw"></a>
+            <a href="" style="padding-right: 8px ;"><img src="sea.jpg" alt="no image" width="340vw"></a>
+        </span>
+    </div>
+
+
+    <div class="box8">
+        <big id="sub7">Bingeworthy TV Dramas</big>
+        <br>
+        <br>
+        <span class="container">
+            <a href="" style="padding-right: 8px ; "><img src="sandman.jpg" alt="no image" width="340vw"></a>
+            <a href="" style="padding-right: 8px ;"><img src="frotier.jpg" alt="no image" width="340vw"></a>
+            <a href="" style="padding-right: 8px ;"><img src="reason.jpg" alt="no image" width="340vw"></a>
+            <a href="" style="padding-right: 8px ;"><img src="la.jpg" alt="no image" width="340vw"></a>
+            <a href="" style="padding-right: 8px ;"><img src="fifty.jpg" alt="no image" width="340vw"></a>
+        </span>
+    </div>
+
+    <div class="box9">
+        <center>
+            <big id="sub8">There’s even more to watch.</big>
+            <p class="para2">
+                Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix
+                originals and more. Watch as much as you want, anytime you want.
+            </p>
+
+            <button class="btn3" onclick="joinpage()">JOIN NOW</button>
+        </center>
+
+    </div>
+
+
+    <footer>
+
+        <div class="box10">
+
+            <span class="block">
+
+                <a href="" style="color: gray;
+        text-decoration: none;  padding-bottom: 12px;">FAQ</a>
+                <a href="" style="color: gray;
+            text-decoration: none; padding-bottom: 12px;">Investor Relations</a>
+                <a href="" style="color: gray;
+        text-decoration: none; padding-bottom: 12px;">Privacy</a>
+                <a href="" style="color: gray;
+        text-decoration: none; padding-bottom: 12px;">Speed Test</a>
+
+            </span>
+            <span class="block">
+
+                <a href="" style="color: gray;
+        text-decoration: none; padding-bottom: 12px;">Help Center </a>
+                <a href="" style="color: gray;
+        text-decoration: none;   padding-bottom: 12px;">Jobs</a>
+                <a href="" style="color: gray;
+        text-decoration: none;  padding-bottom: 12px;">Cookies Preference</a>
+                <a href="" style="color: gray;
+        text-decoration: none;  padding-bottom: 12px;">Legal Notices</a>
+
+
+            </span>
+
+            <span class="block">
+                <a href="" style="color: gray;
+        text-decoration: none;  padding-bottom: 12px;">Account</a>
+                <a href="" style="color: gray;
+        text-decoration: none;  padding-bottom: 12px;">Ways to watch</a>
+                <a href="" style="color: gray;
+        text-decoration: none;  padding-bottom: 12px;">Corporate Information</a>
+                <a href="" style="color: gray;
+        text-decoration: none;  padding-bottom: 12px;">Only on Netflix</a>
+
+
+
+            </span>
+            <span class="block">
+
+                <a href="" style="color: gray;
+        text-decoration: none;  padding-bottom: 12px;">Media Centre</a>
+                <a href="" style="color: gray;
+        text-decoration: none; padding-bottom: 12px;">Terms of Use</a>
+                <a href="" style="color: gray;
+        text-decoration: none; padding-bottom: 12px;">Contact Us</a>
+
+            </span>
+
+
+
+
+        </div>
+        <select name="language" id="lang">
+            <option value="english">English</option>
+            <option value="hindi">हिन्दी</option>
+        </select>
+    </footer>
+
+
+
+
+    <script src="jsforexplore.js"></script>
+    <script> var slideIndex = 0;
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length };
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+
+
+// var slideIndex = 0;
+// carousel();
+
+// function carousel() {
+//   var i;
+//   var x = document.getElementsByClassName("mySlides");
+//   for (i = 0; i < x.length; i++) {
+//     x[i].style.display = "none";
+//   }
+//   slideIndex++;
+//   if (slideIndex > x.length) {slideIndex = 1}
+//   x[slideIndex-1].style.display = "block";
+//   setTimeout(carousel, 2000); // Change image every 2 seconds
+// }
+    </script>
+</body>
+
+</html>
